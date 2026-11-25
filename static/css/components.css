@@ -1,0 +1,41 @@
+.surface-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-subtle);
+  padding: var(--space-5);
+}
+
+.btn-biashara-primary {
+  background-color: var(--color-accent-teal);
+  border-color: var(--color-accent-teal);
+  color: var(--color-text-inverse);
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  padding: var(--space-2) var(--space-4);
+}
+
+.btn-biashara-primary:hover {
+  background-color: var(--color-accent-teal-hover);
+  border-color: var(--color-accent-teal-hover);
+  color: var(--color-text-inverse);
+}
+
+.sidebar-nav-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-5);
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-left: 3px solid transparent;
+}
+
+.sidebar-nav-link:hover,
+.sidebar-nav-link.active {
+  color: var(--color-text-inverse);
+  background-color: rgba(255, 255, 255, 0.06);
+  border-left-color: var(--color-accent-teal);
+}
